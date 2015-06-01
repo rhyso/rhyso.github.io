@@ -12,23 +12,22 @@ body{
 .container{
   max-width: auto;
   padding-top: 70px;
-  .squareHolder {
-    background-color: white;
-    width: 120px;
-    height: 56px;
-    border: 1px solid black;
-    #logo {
-      font-size: 1.5em;
-      color: #222222;
-      text-align: center;
-      padding-top: 1px;
+    .squareHolder {
+      background-color: white;
+      width: 120px;
+      height: 56px;
+      border: 1px solid black;
+      #logo {
+        font-size: 1.5em;
+        color: #222222;
+        text-align: center;
+        padding-top: 1px;
+      }
     }
-  }
-  nav{
-
-    float:right;
-    a{
-      display: inline-block;
-    }
+    nav {
+      float: right;
+      a {
+        display: inline-block;
+      }
   }
 }
