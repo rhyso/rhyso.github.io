@@ -1,3 +1,34 @@
 body{
-  background:blue;
+
+}
+
+.outer-wrapper{
+  width: 100%;
+  background-color: #f2f2f2;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.container{
+  max-width: auto;
+  padding-top: 70px;
+  .squareHolder {
+    background-color: white;
+    width: 120px;
+    height: 56px;
+    border: 1px solid black;
+    #logo {
+      font-size: 1.5em;
+      color: #222222;
+      text-align: center;
+      padding-top: 1px;
+    }
+  }
+  nav{
+
+    float:right;
+    a{
+      display: inline-block;
+    }
+  }
 }

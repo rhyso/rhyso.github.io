@@ -1,4 +1,25 @@
-body {
-  background: blue; }
+.outer-wrapper {
+  width: 100%;
+  background-color: #f2f2f2;
+  min-height: 200px;
+  max-height: 200px; }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImM6L2Rldi9wcm90b3R5cGVzL21iNy1naXRodWIvc3JjL3Njc3MvbWFpbi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLElBQUksQ0FBQTtFQUNGLFVBQVUsRUFBQyxJQUFLLEdBRGIiLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5e1xyXG4gIGJhY2tncm91bmQ6Ymx1ZTtcclxufSJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
+.container {
+  max-width: auto;
+  padding-top: 70px; }
+  .container .squareHolder {
+    background-color: white;
+    width: 120px;
+    height: 56px;
+    border: 1px solid black; }
+    .container .squareHolder #logo {
+      font-size: 1.5em;
+      color: #222222;
+      text-align: center;
+      padding-top: 1px; }
+  .container nav {
+    float: right; }
+    .container nav a {
+      display: inline-block; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImM6L2Rldi9wcm90b3R5cGVzL21iNy1naXRodWIvc3JjL3Njc3MvbWFpbi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlBLGNBQWMsQ0FBQTtFQUNaLEtBQUssRUFBRSxJQUFLO0VBQ1osZ0JBQWdCLEVBQUUsT0FBUTtFQUMxQixVQUFVLEVBQUUsS0FBTTtFQUNsQixVQUFVLEVBQUUsS0FBTSxHQUpMOztBQU9mLFVBQVUsQ0FBQTtFQUNSLFNBQVMsRUFBRSxJQUFLO0VBQ2hCLFdBQVcsRUFBRSxJQUFLLEdBRlQ7RUFHVCxVQUFVLENBQUMsYUFBYSxDQUFWO0lBQ1osZ0JBQWdCLEVBQUUsS0FBTTtJQUN4QixLQUFLLEVBQUUsS0FBTTtJQUNiLE1BQU0sRUFBRSxJQUFLO0lBQ2IsTUFBTSxFQUFFLGVBQWdCLEdBSlg7SUFLYixVQUFVLENBQUMsYUFBYSxDQUFDLEtBQUssQ0FBeEI7TUFDSixTQUFTLEVBQUUsS0FBTTtNQUNqQixLQUFLLEVBQUUsT0FBUTtNQUNmLFVBQVUsRUFBRSxNQUFPO01BQ25CLFdBQVcsRUFBRSxHQUFJLEdBSlo7RUFPVCxVQUFVLENBQUMsR0FBRyxDQUFYO0lBRUQsS0FBSyxFQUFDLEtBQU0sR0FGVjtJQUdGLFVBQVUsQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFmO01BQ0MsT0FBTyxFQUFFLFlBQWEsR0FEdEIiLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5e1xyXG5cclxufVxyXG5cclxuLm91dGVyLXdyYXBwZXJ7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2YyZjJmMjtcclxuICBtaW4taGVpZ2h0OiAyMDBweDtcclxuICBtYXgtaGVpZ2h0OiAyMDBweDtcclxufVxyXG5cclxuLmNvbnRhaW5lcntcclxuICBtYXgtd2lkdGg6IGF1dG87XHJcbiAgcGFkZGluZy10b3A6IDcwcHg7XHJcbiAgLnNxdWFyZUhvbGRlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIHdpZHRoOiAxMjBweDtcclxuICAgIGhlaWdodDogNTZweDtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG4gICAgI2xvZ28ge1xyXG4gICAgICBmb250LXNpemU6IDEuNWVtO1xyXG4gICAgICBjb2xvcjogIzIyMjIyMjtcclxuICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICBwYWRkaW5nLXRvcDogMXB4O1xyXG4gICAgfVxyXG4gIH1cclxuICBuYXZ7XHJcblxyXG4gICAgZmxvYXQ6cmlnaHQ7XHJcbiAgICBhe1xyXG4gICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICB9XHJcbiAgfVxyXG59Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */
